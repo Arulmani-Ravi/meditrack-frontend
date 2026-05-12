@@ -1,4 +1,4 @@
-import { logout } from "../../services/authService";
+import { logout } from "../../Services/authService";
 
 function LogoutButton({ onLogout }) {
   const handleLogout = () => {

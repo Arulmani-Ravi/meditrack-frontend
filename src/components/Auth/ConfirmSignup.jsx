@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { confirmSignUp } from "../../services/authService";
+import { confirmSignUp } from "../../Services/authService";
 
 function ConfirmSignup({ email, onConfirmSuccess }) {
   const [code, setCode] = useState("");
