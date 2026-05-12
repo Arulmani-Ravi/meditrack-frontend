@@ -3,7 +3,7 @@ import Signup from "./components/Auth/Signup";
 import ConfirmSignup from "./components/Auth/ConfirmSignup";
 import Login from "./components/Auth/Login";
 import UploadMedicine from "./components/Upload/UploadMedicine";
-import { isAuthenticated, logout } from "./services/authService";
+import { isAuthenticated, logout } from "./Services/authService";
 import AdminDashboard from "./components/Admin/AdminDashboard";
 
 function App() {
